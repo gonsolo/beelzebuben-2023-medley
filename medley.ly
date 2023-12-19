@@ -1,5 +1,9 @@
 \version "2.24.1"
 
+\paper {
+  system-system-spacing.basic-distance = #25
+}
+
 
 \score {
 	<<
