@@ -28,6 +28,13 @@
 		a:m f
 		a:m f
 		g
+
+		% 06 Game of Thrones
+		c1.:m c
+		c:m g:m bes f:m f4.:m
+		c1.:m g:m bes c:m c4.:m
+		as2. es f:m c:m
+		as es4. f:m
 	}
 	\new Staff {
 		% 01 Sherlock Opening
@@ -112,10 +119,37 @@
 			c b e, g					|
 			d' c e, g					|
 			e'1.						|
-			e1.						|
+			e1.						| \break
 		}
 		>>
 		\oneVoice
+
+		% 05 Downton Abbey
+		\tempo 4. = 60
+		\time 12/8
+		\relative c {
+			r1._"06 Game of Thrones"
+			r
+
+			g'4. c, es16 f g4 c, es16 f			|
+			d1.						|
+			f4. bes, es16 d f4 c4.				|
+			\time 15/8
+			es16 d c4~ c4. c2. r4.				|
+			\time 12/8
+
+			g'4. c, es16 f g4 c, es16 f			|
+			d1.						|
+			f4. bes, es16 d f4 c4.				|
+			\time 15/8
+			es16 d c4~ c4. c2. r4.				|
+			\time 12/8
+
+			c'2. bes					|
+			c, g'						|
+			as, es'4. f					| \break
+		}
+
 	}
 
 	>>
