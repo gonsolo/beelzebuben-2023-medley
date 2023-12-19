@@ -114,9 +114,9 @@
 		\tempo 4 = 85
 		\time 4/4
 		\relative c {
-			r1_"04 Barbapapa" r1 r1 r1 r1 r1 r1 r1
-			r1 r1 r1 r1
-			r1 r1 r1 r1 r1 r1 r1 r1 \break
+			r1_"04 Barbapapa" r1 r1 r1
+			r1 r1
+			r1 r1 r1 r1 \break
 		}
 
 		% 05 Downton Abbey
