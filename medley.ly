@@ -1,7 +1,7 @@
 \version "2.24.1"
 
 \paper {
-  system-system-spacing.basic-distance = #25
+  system-system-spacing.basic-distance = #23
 }
 
 \header {
@@ -24,7 +24,7 @@
 		a:m a:m a:m a:m a:m a:m
 
 		% 04 Barbapapa
-		d a d a d a d:maj7 d:7
+		d2 a d a d a d:maj7 d:7
 		g d/fis e:m <c e ges>
 		d a d a d a d a
 
