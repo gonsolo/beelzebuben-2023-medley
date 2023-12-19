@@ -1,7 +1,7 @@
 \version "2.24.1"
 
 \paper {
-  system-system-spacing.basic-distance = #23
+  system-system-spacing.basic-distance = #26
 }
 
 \header {
