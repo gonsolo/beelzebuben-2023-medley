@@ -42,6 +42,11 @@
 		c2 f2 g2 c
 		c2 f2 g2 c
 		c2 f2 g2 c
+
+		% 08 Buffy
+		\repeat volta 2 {
+			e1:m e1:m g g b:m b:m d d
+		}
 	}
 	\new Staff {
 		% 01 Sherlock Opening
@@ -163,6 +168,16 @@
 		\relative c {
 			r1_"07 Fraggles"
 			r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1		| \break
+		}
+
+		% 08 Buffy
+		\tempo 4 = 190
+		\time 4/4
+		\relative c {
+			\repeat volta 2 {
+				e1~_"08 Buffy"	| e4. fis g4	| d1~	| d	|
+				d~		| d4. e4. fis4	| d1~	| d	|
+			}
 		}
 
 	}
