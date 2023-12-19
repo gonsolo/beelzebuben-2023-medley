@@ -35,6 +35,13 @@
 		c1.:m g:m bes c:m c4.:m
 		as2. es f:m c:m
 		as es4. f:m
+
+		% 07 Fraggles
+		c1 f d g
+		c2 f2 g2 c
+		c2 f2 g2 c
+		c2 f2 g2 c
+		c2 f2 g2 c
 	}
 	\new Staff {
 		% 01 Sherlock Opening
@@ -124,7 +131,7 @@
 		>>
 		\oneVoice
 
-		% 05 Downton Abbey
+		% 06 Game of Thrones
 		\tempo 4. = 60
 		\time 12/8
 		\relative c {
@@ -148,6 +155,14 @@
 			c'2. bes					|
 			c, g'						|
 			as, es'4. f					| \break
+		}
+
+		% 07 Fraggles
+		\tempo 4 = 115
+		\time 4/4
+		\relative c {
+			r1_"07 Fraggles"
+			r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1		| \break
 		}
 
 	}
