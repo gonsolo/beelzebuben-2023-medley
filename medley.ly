@@ -20,6 +20,14 @@
 		d a d a d a d:maj7 d:7
 		g d/fis e:m <c e ges>
 		d a d a d a d a
+
+		% 05 Downton Abbey
+		a1.:m f
+		a:m f
+		a:m f
+		a:m f
+		a:m f
+		g
 	}
 	\new Staff {
 		% 01 Sherlock Opening
@@ -73,6 +81,41 @@
 			r1 r1 r1 r1
 			r1 r1 r1 r1 r1 r1 r1 r1 \break
 		}
+
+		% 05 Downton Abbey
+		\tempo 4. = 110
+		\time 12/8
+		<<
+		\relative c {
+			\voiceOne
+			e'4._"05 Downton Abbey " e e d			|
+			e a, a g					|
+			a1.						|
+			r1.						|
+			r4. e' e d					|
+			g a, a g					|
+			a1.						|
+			r						|
+			r						|
+			e'						|
+			e						|
+		}
+		\new Voice \relative c {
+			\voiceTwo
+			r1.						|
+			r1.						|
+			r4. e, g b					|
+			c b e,2.					|
+			r1.						|
+			r1.						|
+			r4. e g b					|
+			c b e, g					|
+			d' c e, g					|
+			e'1.						|
+			e1.						|
+		}
+		>>
+		\oneVoice
 	}
 
 	>>
