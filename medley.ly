@@ -15,6 +15,11 @@
 
 		% 03 Akte X
 		a:m a:m a:m a:m a:m a:m
+
+		% 04 Barbapapa
+		d a d a d a d:maj7 d:7
+		g d/fis e:m <c e ges>
+		d a d a d a d a
 	}
 	\new Staff {
 		% 01 Sherlock Opening
@@ -45,7 +50,7 @@
 			e1						|
 			b'8 e,4 e8 fis8 g fis \trill e			|
 			a8 e2~ e4 e16 fis				|
-			g8 g16 a fis8 fis16 g e8 e16 fis es8 c16 b	|
+			g8 g16 a fis8 fis16 g e8 e16 fis es8 c16 b	| \break
 		}
 
 		% 03 Akte X
@@ -57,7 +62,16 @@
 			r4. a,8 e' d e a				|
 			e2 r4. c'8					|
 			b a g a e2					|
-			r4. c'8 b a g b					|
+			r4. c'8 b a g b					| \break
+		}
+
+		% 04 Barbapapa
+		\tempo 4 = 85
+		\time 4/4
+		\relative c {
+			r1_"04 Barbapapa" r1 r1 r1 r1 r1 r1 r1
+			r1 r1 r1 r1
+			r1 r1 r1 r1 r1 r1 r1 r1 \break
 		}
 	}
 
