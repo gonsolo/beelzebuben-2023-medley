@@ -60,7 +60,7 @@
 		f f f f
 		bes bes f f
 		c c f f
-		c c f f
+		c c
 		f f des des ges ges	
 
 		% 10 Better Call Saul
@@ -208,7 +208,7 @@
 			r1 r1 r1 r1
 			r1 r1 r1 r1
 			r1 r1 r1 r1
-			r1 r1 r1 r1
+			r1 r1
 
 			r1 r1 r1 r1 r1 r1 \break
 		}
